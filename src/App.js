@@ -14,7 +14,7 @@ function App() {
         <div class="notification">
           Edit the <code>./src</code> folder to add components.
           <div className="tags">
-
+              <Tag tags={['martn', 'bozhidar']} />
           </div>
         </div>
       </div>
