@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tag({tags}){
+export default function Tag(props){
 
 return(
   <div className="tags">
@@ -8,7 +8,7 @@ return(
   <task className="tag"></task>
   <tags className="tag"></tags>
   <react className="tag"></react>
-  {tags.map((t) => {
+  {props.tags.map((t) => {
       return <t className="tag"></t>
   })}
   </div>
