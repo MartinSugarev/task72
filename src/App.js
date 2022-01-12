@@ -1,5 +1,5 @@
 import "./App.css";
-import Tag from './Tag'
+import Tags from './Tags'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <div class="notification">
           Edit the <code>./src</code> folder to add components.
           <div className="tags">
-              <Tag tags={['martn', 'bozhidar']} />
+              <Tags tags={['martn', 'bozhidar']} />
           </div>
         </div>
       </div>
