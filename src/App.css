@@ -4,3 +4,7 @@
   justify-content: center;
   height: 100vh;
 }
+.tags{
+  display: flex;
+  flex-direction: column;
+}
